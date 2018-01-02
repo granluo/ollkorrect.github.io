@@ -9,32 +9,39 @@ body{
     color: #444444;
 }
 .container{
-    width: 780px;
+    width: 1080px;
     margin: 0 auto;
-    background:#FFF;
+    background:;
     
-    box-shadow: 0px 9px 13px 5px;
+/*    box-shadow: 0px 9px 13px 5px;*/
 }
 
 .header{
     padding:45px 0 20px 40px;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 1px ;
+    border-top: 2px solid  #0abab5;
+    margin: 1px 0;
+    padding: 0;
+}
 .menu{
-    background: #3B7687;
     padding:6px 0 6px 40px;
 }
 
 .menu a {
     color: #C5D6DB;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Arial Narrow", "Myriad Pro";
 }
 
 .menu a:hover{
     
-    color: #ecf2f3;
+    color: #0abab5;
 }
 
 aside{
